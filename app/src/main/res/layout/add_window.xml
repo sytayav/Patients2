@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="#2d2d2d"
+    app:cardElevation="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_bottom"
+                android:textSize="21sp"
+                android:text="Name:" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/nameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="20dp"
+                android:inputType="text"
+                android:textColorHint="@color/text_hint"
+
+                android:textColor="#DDDDDDDD"
+                android:textSize="21sp"
+                app:met_baseColor="@color/white"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/text_bottom"
+                android:hint="Name"
+
+                app:met_singleLineEllipsis="true">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_bottom"
+                android:textSize="20sp"
+                android:text="Age:" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ageField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:inputType="text"
+                android:text=""
+                android:textColor="#DDDDDDDD"
+                android:textSize="21sp"
+                android:layout_weight="1"
+                android:textColorHint="@color/text_hint"
+                android:hint="Age"
+                app:met_baseColor="@color/white"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/text_bottom"
+
+                app:met_singleLineEllipsis="true">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView >

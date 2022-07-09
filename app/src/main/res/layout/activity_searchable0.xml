@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    android:id="@+id/search0_element"
+    app:actionViewClass="androidx.appcompat.widget.SearchView"
+    tools:context=".SearchableActivity0">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/page0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#DDDDDDDD"
+            android:background="@drawable/dis_search_view"
+            android:text="Page" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dis_search_view">
+
+        <androidx.appcompat.widget.SearchView
+            app:theme="@style/SearchViewStyle"
+            android:id="@+id/search0"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:cacheColorHint="@android:color/white"
+            android:focusable="false"
+
+            android:gravity="center"
+            app:iconifiedByDefault="false"
+            app:queryHint="Enter a name">
+
+        </androidx.appcompat.widget.SearchView>
+
+        <TextView
+            android:id="@+id/list1"
+            android:paddingBottom="180dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:cacheColorHint="@android:color/white"
+            android:gravity="center"
+            android:textColor="@color/text_bottom"
+            android:textSize="40sp"
+            android:text="Insufficient level of access">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

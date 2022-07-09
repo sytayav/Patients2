@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "593364026932",
+    "project_id": "patients2-5f47f",
+    "storage_bucket": "patients2-5f47f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593364026932:android:d55e73735e865d38ad6c61",
+        "android_client_info": {
+          "package_name": "it.mirea.patients2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593364026932-7kkvhqstpfl9ua75arqd3lspqrgj2s70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.mirea.patients2",
+            "certificate_hash": "cc5fb8c3def71f11f83e3ba1406c1f38b3d0c6f8"
+          }
+        },
+        {
+          "client_id": "593364026932-1an4u72rt6vcf1ibhq7d7h7cn75cr8i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhOIqgigYKxSnLWQBOGKIDbaTud5bmf64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593364026932-1an4u72rt6vcf1ibhq7d7h7cn75cr8i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

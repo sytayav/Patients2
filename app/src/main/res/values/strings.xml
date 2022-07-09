@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Patients</string>
+    <string name="app_in_name">Patients</string>
+    <string name="app_name_after">Reference App</string>
+    <string name="text_bottom">Log in to your account</string>
+    <string name="btnSignIn">SING IN</string>
+    <string name="btnRegister">SING UP</string>
+    <string name="search_1">🔍поиск</string>
+    <string name="search_hint">Enter a name</string>
+    <string name="i">My page</string>
+</resources>

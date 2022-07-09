@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name='AppTheme' parents='Theme.AppCompat.Light.NoActionBar'>
+        <item name='android:windowFullscreen'>true</item>
+    </style>
+
+    <style name='DialogStyle'>
+        <item name='android:windowBackground'>#2d2d2d</item>
+        <item name='android:textColor'>@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:fontFamily">@font/sarala_bold</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+    </style>
+
+</resources>

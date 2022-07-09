@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/kanit_bold</item>
+        <item>@font/kanit_thin</item>
+        <item>@font/noto_sans</item>
+        <item>@font/noto_sans_bold</item>
+        <item>@font/poppins_thin</item>
+        <item>@font/questrial</item>
+        <item>@font/roboto_thin</item>
+        <item>@font/sarala_bold</item>
+        <item>@font/secular_one</item>
+        <item>@font/varela_round</item>
+    </array>
+</resources>
